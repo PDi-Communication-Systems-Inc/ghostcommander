@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/location"
+        android:title="@string/location"
+        android:icon="@drawable/panel"
+        android:alphabeticShortcut="p">
+      <menu>
+        <item android:id="@+id/home"
+         android:title="@string/home"
+         android:alphabeticShortcut="h"/>
+        <item android:id="@+id/favs"
+         android:title="@string/favs"
+         android:alphabeticShortcut="f"/>
+        <item android:id="@+id/enter"
+         android:title="@string/enter"
+         android:alphabeticShortcut="d"/>
+        <item android:id="@+id/oth_sh_this"
+         android:title="@string/oth_sh_this"/>
+        <item android:id="@+id/search"
+         android:title="@string/search_file"/>
+      </menu>
+    </item>
+
+    <item android:id="@+id/list"
+        android:title="@string/list"
+        android:icon="@drawable/sort"
+        android:alphabeticShortcut="i">
+      <menu>
+        <item android:id="@+id/by_name"
+            android:title="@string/sort_by_name"
+            android:alphabeticShortcut="n"/>
+        <item android:id="@+id/by_ext"
+            android:title="@string/sort_by_ext"
+            android:alphabeticShortcut="e"/>
+        <item android:id="@+id/by_size"
+            android:title="@string/sort_by_size"
+            android:alphabeticShortcut="s"/>
+        <item android:id="@+id/by_date"
+            android:title="@string/sort_by_date"
+            android:alphabeticShortcut="m"/>
+        <item android:id="@+id/refresh"
+             android:title="@string/refresh"
+             android:alphabeticShortcut="r"/>
+        <item android:id="@+id/sel_all"
+             android:title="@string/select_all"
+             android:alphabeticShortcut="+"/>
+        <item android:id="@+id/uns_all"
+             android:title="@string/unselect_all"
+             android:alphabeticShortcut="-"/>
+        <item android:id="@+id/swap"
+             android:title="@string/swap"
+             android:alphabeticShortcut="u"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/file"
+        android:title="@string/file"
+        android:icon="@drawable/file">
+      <menu>
+        <item android:id="@+id/F7"
+            android:title="@string/new_folder"/>
+        <item android:id="@+id/new_file"
+            android:title="@string/new_file"/>
+        <item android:id="@+id/new_zip"
+            android:title="@string/new_zip"/>
+        </menu>
+    </item>
+    
+    <item android:id="@+id/app"
+        android:title="@string/app"
+        android:icon="@drawable/app">        
+      <menu>
+        <item android:id="@+id/toggle_panels_mode"
+             android:title="@string/toggle_panels_mode"/>
+        <item android:id="@+id/softkbd"
+            android:title="@string/softkbd"/>
+        <item android:id="@+id/rescan"
+            android:title="@string/rescan"/>
+        <item android:id="@+id/prefs"
+            android:title="@string/prefs"/>
+        <item android:id="@+id/exit"
+            android:title="@string/F10"/>
+      </menu>
+    </item>
+
+    <item android:id="@+id/help"
+        android:title="@string/help"
+        android:icon="@drawable/info">        
+      <menu>
+        <item android:id="@+id/keys"
+            android:title="@string/keys"/>
+        <item android:id="@+id/online"
+            android:title="@string/online_help"/>
+        <item android:id="@+id/about"
+            android:title="@string/about"/>
+        <item android:id="@+id/donate"
+            android:title="@string/donate"/>
+        </menu>
+    </item>
+</menu>

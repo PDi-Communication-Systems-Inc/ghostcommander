@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+  <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:padding="10dip">
+
+    <CheckBox
+        android:id="@+id/for_dirs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textSize="12sp"
+        android:checked="true"
+        android:text="@string/for_dirs" />
+    <CheckBox
+        android:id="@+id/for_files"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/for_dirs"
+        android:layout_alignLeft="@id/for_dirs"
+        android:layout_marginTop="-10dip"
+        android:textSize="12sp"
+        android:checked="true"
+        android:text="@string/for_files" />
+    
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/for_dirs"
+        android:text="@string/filemask" />
+    <EditText
+        android:id="@+id/edit_field"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prompt"
+        android:layout_toLeftOf="@id/for_dirs"
+        android:layout_marginRight="10dp"
+        android:autoText="false"
+        android:capitalize="none"
+        android:gravity="fill_horizontal"
+        android:inputType="textUri"
+        android:scrollHorizontally="true" />
+
+    <RelativeLayout
+        android:id="@+id/search_params"
+        android:layout_marginTop="2dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/for_files"
+        android:visibility="gone">
+        
+      <CheckBox
+          android:id="@+id/in_subf"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+          android:textSize="12dp"
+          android:checked="true"
+          android:text="@string/in_subf" />          
+        
+        <TextView
+            android:id="@+id/content_prompt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/content" />
+        <EditText
+            android:id="@+id/edit_content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/content_prompt"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/in_subf"
+            android:autoText="false"
+            android:capitalize="none"
+            android:gravity="fill_horizontal"
+            android:scrollHorizontally="true" />
+        
+        <TableLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/edit_content"
+          android:stretchColumns="1">
+          <TableRow
+              android:layout_width="fill_parent">
+             <TextView
+                android:id="@+id/bigger_prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="@string/bigger_than"/>
+            <EditText
+                android:id="@+id/edit_bigger"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:scrollHorizontally="true" />
+
+            <CheckBox
+                android:id="@+id/mod_after"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="@string/mod_after" />
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:id="@+id/mod_after_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8dp"
+                android:text="@string/empty_string" />
+            </TableRow>
+
+            <TableRow 
+                android:layout_width="fill_parent">
+              <TextView
+                  android:id="@+id/smaller_prompt"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="top"
+                  android:textSize="10dp"
+                  android:text="@string/smaller_than" />
+              <EditText
+                  android:id="@+id/edit_smaller"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginRight="10dp"
+                  android:scrollHorizontally="true" />
+
+              <CheckBox
+                  android:id="@+id/mod_before"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="10dp"
+                  android:layout_gravity="top"
+                  android:text="@string/mod_before" />
+              <Button
+                  style="?android:attr/buttonStyleSmall"
+                  android:id="@+id/mod_before_date"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="top"
+                  android:textSize="8dp"
+                  android:text="@string/empty_string" />
+              </TableRow>
+          </TableLayout>        
+        </RelativeLayout>
+  </RelativeLayout>
+</ScrollView>

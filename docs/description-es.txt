@@ -1,0 +1,27 @@
+Gestor de archivos de doble panel (parecido a Norton Commander, Midnight Commander o Total Commander).
+
+A diferencia de los gestores de archivos habituales, copia y mueve archivos entre sus dos paneles. Muchos usuarios consideran esta forma de trabajar más adecuada que los clásicos copiar y pegar estilo Explorer.
+
+Además de gestionar el sistema de archivos de la tarjeta SD, este gestor permite subir y descargar archivos de ubicaciones remotas como servidores FTP, unidades de red Windows (mediante Samba, requiere Plug-in), crear o extraer archivos ZIP, etc.
+
+Para los usuarios avanzados, permite acceder en modo "root:" (su - super usuario), lo que permite trabajar con el sistema de archivos raíz del teléfono, cambiar persimos de archivos (chmod) e incluso ejecutar comandos shell. Además mediante el modo "mount:" se pueden explorar y montar las particiones del sistema.
+
+Nota! Presiona en el lado derecho de las filas del panel para hacer selecciones múltiples. Pulsa en el lado izquierdo para abrir el archivo o entrar en la carpeta. Sí, un lado abre, el otro selecciona.
+
+A mayores, la aplicación viene con un montón de opciones personalizables con las que ajustar su comportamiento a tus preferencias personales.
+
+Lista completa de las funciones del gestor de archivos Ghost Commander:
+* selección múltiple (manual or mediante comodines)
+* miniaturas de imágenes
+* favoritos
+* cálculo del tamaño total de los archivos y carpetas seleccionados
+* ordenar - por nombre, extensión, tamaño o fecha de los archivos
+* búsqueda de archivos por nombre (admite el uso de comodines)
+* editor de texto (propio o de terceros)
+* abrir archivos con la aplicación apropiada (instalar un .apk, mostrar una imagen o reproducir un vídeo)
+* envío de archivos por bluetooth o correo
+* muchas opciones de personalización, como: colores personalizados, idioma, barra de herramientas personalizable
+* funciones estándar de un gestor de archivos: crear carpetas; crear archivos de texto, copiar, mover y borrar archivos y carpetas; descarga y subida FTP; descomprimir y crear archivos ZIP; modo super usuario; etc.
+
+Para más detalles, por favor, visita la página web.
+Alguna otra cuestión? Mándame un email.

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+      <item android:id="@+id/save_prefs"
+          android:title="@string/save_prefs"/>
+      <item android:id="@+id/rest_prefs"
+          android:title="@string/rest_prefs"/>
+      <item android:id="@+id/save_log"
+          android:title="@string/save_log"/>
+</menu>

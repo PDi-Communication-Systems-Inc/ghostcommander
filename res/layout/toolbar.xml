@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="horizontal">
+
+    <LinearLayout
+         android:id="@+id/toolbar"
+         android:orientation="horizontal"
+         android:layout_width="1000dip" 
+         android:layout_height="wrap_content"
+         android:background="@color/toolbar"
+         android:paddingTop="1dp">
+         android:paddingBottom="1dp">
+    </LinearLayout>
+ </HorizontalScrollView>
+ 

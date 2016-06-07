@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent"
+    android:padding="10dip" 
+    android:id="@+id/command">
+    <TextView 
+        android:text="@string/command" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"/>
+    <EditText 
+        android:id="@+id/command_text" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="true"
+        />
+    <CheckBox 
+        android:text="@string/use_busybox" 
+        android:id="@+id/use_busybox" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:checked="true"/>
+</LinearLayout>

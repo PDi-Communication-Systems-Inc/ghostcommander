@@ -1,0 +1,40 @@
+Gestore di file a due pannelli (in stile Norton Commander, Midnight Commander o Total Commander).
+
+A differenza dei normali gestori di file, copia e sposta i file tra i suoi due pannelli.
+Questo permette di organizzare con maggiore semplicità
+le cartella nella scheda di memoria e mantenere sempre in ordine i file.
+
+Oltre al file system della scehda di memoria, il gestore di file è in grado di caricare e
+scaricare file da posizioni remote quali server FTP, Windows (Samba), condivisioni di rete
+(è richiesto un plugin), creare o estrarre archivi in formato ZIP.
+
+Per gli utenti avanzati questo gestore di file fornisce anche la modalità
+"root" (su-super user) per lavorare con i file di sistema del telefono, modificare
+i permessi dei file (chmod) e anche eseguire i propri comandi della shell.
+In più è fornita la modalità "mount:" per sfogliare e rimonatre le partizioni del file system.
+
+NOTA! Per selezionare più file fare clic sulla parte destra del pannello.
+Per aprire un file o una cartella fare clic sul lato sinistro:
+"un lato ti farà selezionare, e l'altro ti farà aprire".
+
+L'applicazione fornisce diverse preferenze che permettono di impostarne
+il comportamento per adattarlo alle proprie abitudini.
+
+Elenco completo delle funzionalità del gestore di file:
+* selezione multipla
+* miniature delle immagini
+* favoriti
+* calcolo della dimensione totale di file e cartelle selezionati
+* ordinamento - per nome file, per estensione, per dimensione, per data
+* ricerca dei file per nome
+* editor di testo (integrato o esterno)
+* apertura dei file  con l'applicazione adatta (installa file .apk, mostra le immagini e i video)
+* invio dei file tramite email o bluetooth
+* diverse impostazioni di personalizzazione quali: colori,
+lingua dell'interfaccia, barra strumenti
+* funzioni di gestione dei file: creazione di cartelle, creazione di file di testo,
+cancellazione e copia di file e cartelle, download e upload FTP, creazione ed
+estrazione di file ZIP, modalità super utente.
+
+Visitate il sito web per maggiori dettagli.
+Domande? Inviatemi una mail (in Inglese).

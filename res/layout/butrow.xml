@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="64dip"
+    android:ignoreGravity="@+id/grabber" 
+    android:gravity="right"
+    android:paddingTop="10dip">
+    <LinearLayout
+      android:id="@+id/tb_props" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:layout_marginRight="40dip">
+      <!--       
+      android:layout_alignLeft="@+id/tb_caption" 
+      android:layout_alignRight="@+id/tb_caption"
+       -->
+        <CheckBox
+          android:id="@+id/tb_visible"
+          android:layout_width="0dip" 
+          android:layout_height="wrap_content"
+          android:layout_weight="2"/>
+        <TextView 
+            android:id="@+id/tb_label"
+            android:layout_toRightOf="@id/tb_visible"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="0dip"
+            android:layout_weight="4"
+            android:paddingLeft="9dip"
+            android:paddingRight="9dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"/>
+        <EditText 
+            android:id="@+id/tb_caption" 
+            android:layout_toRightOf="@id/tb_label"
+            android:singleLine="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" />
+    </LinearLayout>
+    <ImageView android:id="@+id/grabber"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:src="@drawable/grabber"/>
+</RelativeLayout>

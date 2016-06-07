@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_nav"
+          android:title="@string/go_button"
+          android:icon="@drawable/ic_menu_goto"
+          android:showAsAction="always">
+      <menu>
+        <item android:id="@+id/action_back"
+              android:title="@string/go_up"
+              android:icon="@drawable/ic_menu_back"/>
+        <item android:id="@+id/totop"
+              android:title="@string/go_top"
+              android:icon="@android:drawable/arrow_up_float"/>
+        <item android:id="@+id/tobot"
+              android:title="@string/go_end"
+              android:icon="@android:drawable/arrow_down_float"/>
+        <item android:id="@+id/home"
+           android:title="@string/home"
+           android:icon="@drawable/ic_menu_home"/>
+        </menu>
+    </item>
+    <item android:id="@+id/action_sort"
+          android:icon="@drawable/ic_menu_sort_by_size"
+          android:title="@string/sorting"
+          android:showAsAction="always">
+          <menu>
+              <item android:id="@+id/by_name"
+                  android:title="@string/sort_by_name"/>
+              <item android:id="@+id/by_ext"
+                  android:title="@string/sort_by_ext"/>
+              <item android:id="@+id/by_size"
+                  android:title="@string/sort_by_size"/>
+              <item android:id="@+id/by_date"
+                  android:title="@string/sort_by_date"/>
+          </menu>
+    </item>
+    <item android:id="@+id/action_select"
+          android:icon="@drawable/ic_menu_mark"
+          android:title="@string/select"
+          android:showAsAction="always">
+          <menu>
+              <item android:id="@+id/sel_all"
+                   android:title="@string/select_b"/>
+              <item android:id="@+id/uns_all"
+                   android:title="@string/unselect_b"/>
+          </menu>
+    </item>
+</menu>

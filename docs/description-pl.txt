@@ -1,0 +1,38 @@
+Ghost Commander - menedżer plików z widokiem podwójnych paneli (podobnie jak w klasycznych programach tego typu: Norton Commander, Midnight Commander czy Total Commander).
+
+W przeciwieństwie do innych menedżerów (w których zarządzasz plikami w jednym oknie, używając mechanizmu "kopiuj i wklej"), Ghost Commander posiada dwa panele. Kopiowanie i przenoszenie plików w Twoim urządzeniu mobilnym z Androidem jest dzięki temu dużo łatwiejsze i bardziej intuicyjne.  
+W celu zaznaczenia/odznaczenia wielu plików (czy katalogów) należy kliknąć w obrębie prawej połowy danego panelu. Aby wejść do katalogu lub uruchomić plik - należy kliknąć w obrębie lewej połowy panelu. 
+
+Przy użyciu Ghost Commandera możesz również z łatwością zalogować się na serwer FTP, by ściągać lub wrzucać pliki. Dzięki dodatkowej wtyczce (wymagana osobna instalacja) uzyskasz także dostęp do udziałów Samba (udostępnione foldery m.in. w systemie Windows). 
+
+Aplikacja obsługuje oczywiście archiwa ZIP. Za jej pośrednictwem rozpakujesz dowolne archiwum jak i utworzysz nowe.  
+
+Jeśli jesteś zaawansowanym użytkownikiem, Ghost Commander pozwoli ci również wykorzystać tryb root-a (su - super user) aby zarządzać plikami/katalogami systemowymi. Wykorzystanie tego trybu wymaga oczywiście posiadania zrootowanego urządzenia. W trybie root-a możesz również zmieniać atrybuty plików (chmod) a nawet uruchamiać komendy shell. Dodatkowo, za pomocą komendy "mount:" możesz przeglądać i montować/odmontowywać partycje systemowe.
+
+Aplikację można skonfigurować do swoich potrzeb dzięki ustawieniom, które pozwolą Ci dostosować jej wygląd i zachowanie.
+
+Lista możliwości: 
+* standardowe operacje na plikach: zmiana nazwy, kopiowanie, przenoszenie, tworzenie katalogów, tworzenie plików tekstowych, usuwanie, etc.
+* dwa sąsiadujące panele 
+* wybór wielu plików/katalogów 
+* łączenie z serwerami FTP
+* tworzenie i rozpakowywanie ZIP-ów
+* edycja plików (za pomocą edytora zintegrowanego lub zewnętrznego)
+* wysyłanie plików przez e-mail lub Bluetooth
+* wyszukiwanie plików/katalogów
+* Ulubione (zakładki) 
+* wyliczanie rozmiaru plików/katalogów i wolnego miejsca
+* sortowanie (wg nazwy, rozszerzenia, rozmiaru, daty)
+* "Otwórz za pomocą..."
+* personalizacja wyglądu (m.in. zmiana kolorów, zmiana języka, własny pasek poleceń)
+* tryb super user
+* miniaturki 
+
+Aby dowiedzieć się więcej, odwiedź stronę:
+http://sites.google.com/site/ghostcommander1/info
+
+Ghost Commander - menedżer plików autorstwa Ghost Squared.
+Masz dodatkowe pytania? Napisz mi e-maila (w języku angielskim): ghost.sq2@gmail.com
+Polskie tłumaczenie: Robert Malara (robert.malara+gc@gmail.com)
+ 
+keywords: ghost commander file manager copy paste rename move directory directories file files panels total norton midnight intuitive server ftp connection connections download upload samba windows root mount zip unzip android memory card filesystem

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:id="@+id/narrow_layout">
+        <ImageView android:id="@+id/fld_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:paddingLeft="2dip" 
+            android:padding="0px"
+            android:adjustViewBounds="true"/>
+        <TextView  
+            android:id="@+id/fld_name"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/fld_icon"
+            android:paddingTop="1dip"
+            android:paddingLeft="4dip"
+            android:textSize="10sp"/>
+        <TextView 
+            android:id="@+id/fld_date"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/fld_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="9sp"
+            android:gravity="right"
+            android:paddingRight="4dip"
+            android:singleLine="true"
+            android:ellipsize="none"/>
+        <TextView 
+            android:id="@+id/fld_size"
+            android:layout_below="@id/fld_name"
+	        android:layout_toLeftOf="@id/fld_date"
+	        android:layout_alignTop="@id/fld_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="9sp"
+            android:paddingRight="6dip"
+            android:singleLine="true"
+            android:ellipsize="none"/>
+        <TextView
+            android:id="@+id/fld_attr"
+            android:layout_below="@id/fld_name"
+            android:layout_alignLeft="@id/fld_name"
+            android:layout_alignTop="@id/fld_size"
+            android:paddingRight="4dip"
+            android:paddingLeft="4dip"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="9sp"
+            android:gravity="right"/>
+</RelativeLayout>
+
+    

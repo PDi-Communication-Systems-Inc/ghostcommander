@@ -1,0 +1,66 @@
+
+Ghost Commander/src
+└── com
+    ├── commonsware
+    │   └── cwac
+    │       └── tlv
+    │           └── TouchListView.java    -- UI control to sort list elements (used in the toolbar buttons customization settings)
+    ├── example
+    │   └── touch
+    │       └── TouchImageView.java    -- simple picture viewer core
+    └── ghostsq
+        └── commander
+            ├── adapters    -- set of classes which are connect UI and the data source. so they are called "adapters"
+            │   ├── AppsAdapter.java    -- provides the list of the installed applications
+            │   ├── CA.java                    -- data structures, which contain information about all implemented adapters.
+            │   ├── CommanderAdapterBase.java -- common base code for all the adapters
+            │   ├── CommanderAdapter.java         -- interface class. contains only method declarations and the Item data structure
+            │   ├── Engine.java                              -- base class for all synchronous working threads
+            │   ├── FavsAdapter.java    -- provides the list of favorited folders
+            │   ├── FindAdapter.java    -- does the local file system search feature
+            │   ├── FSAdapter.java       -- local file system
+            │   ├── FTPAdapter.java     -- ftp server
+            │   ├── HomeAdapter.java -- the home list of the features
+            │   └── ZipAdapter.java     -- content of a zip file
+            ├── ColorsKeeper.java       -- a structure to keep UI color settings
+            ├── Commander.java        -- interface of main application features
+            ├── Dialogs.java                -- most of the UI dialogs are implemented here
+            ├── Editor.java                  -- text editor implementation
+            ├── favorites            -- set of classes related to the favorites
+            │   ├── FavDialog.java    -- dialog to edit a favorite
+            │   ├── Favorite.java        -- a structure which keeps the favorite data
+            │   ├── Favorites.java      -- list of favorites  data structure
+            │   └── LocationBar.java  -- UI elements to edit the path and see/choose the faves
+            ├── FileCommander.java  -- main application activity
+            ├── FileProvider.java        -- a provider (it's an android term) of file content
+            ├── FileTypes.java            -- UI of file extensions and their colors
+            ├── ListHelper.java          -- a wrapper around UI list control
+            ├── LockableScrollView.java -- an extension of a scroll view which can just block its scroll feature
+            ├── Panels.java                -- class with the code which manages the UI file panels
+            ├── PanelsView.java        -- UI extension of a panel to be able manage its own size
+            ├── PictureViewer.java    -- picture viewer activity
+            ├── Prefs.java                -- this class manages the application settings
+            ├── RGBPickerDialog.java -- this dialog class lets the user pick a color
+            ├── root    -- set of classes related to the root access
+            │   ├── EditPermissions.java    -- chmod/chown dialog
+            │   ├── ExecEngine.java          -- a thread to execute a shell command
+            │   ├── MountAdapter.java      -- adapter to show all the mount points 
+            │   ├── MountsListEngine.java    -- thread to work with mount points
+            │   ├── Permissions.java        -- a structure to keep file permissions
+            │   ├── RemountEngine.java    -- a thread to remount partitions
+            │   └── RootAdapter.java        -- adapter to the list of files given by the "ls" command
+            ├── SelZoneDialog.java        -- settings to setup the selection zone
+            ├── ServerForm.java            -- dialog to prepare a connection to a server
+            ├── StreamServer.java        -- a service to provide HTTP data stream of video/audio data
+            ├── TextViewer.java            -- activity to browse text files
+            ├── toolbuttons    -- set of classes related to the bottom toolbar
+            │   ├── ToolButton.java            -- all about a button
+            │   ├── ToolButtons.java          -- the list of buttons
+            │   └── ToolButtonsProps.java -- settings, like order and contant of buttons
+            └── utils    -- miscelaous utility classes
+                ├── Credentials.java    -- username/password
+                ├── ForwardCompat.java    -- used when the code is ran on a newer API
+                ├── FTP.java                        -- FTP protocol implementation
+                ├── LsItem.java                   -- wrapper around unix's ls file string
+                ├── MnfUtils.java                 -- works with android manifest files
+                └── Utils.java                       -- other useful utility functions

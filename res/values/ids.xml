@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Buttons -->
+  <item type="id" name="F1" />
+  <item type="id" name="F2" />
+  <item type="id" name="F2t" />
+  <item type="id" name="F3" />
+  <item type="id" name="F3t" />
+  <item type="id" name="F4" />
+  <item type="id" name="F4t" />
+  <item type="id" name="SF4"/>
+  <item type="id" name="F5" />
+  <item type="id" name="F5t" />
+  <item type="id" name="F6" />
+  <item type="id" name="F6t" />
+  <item type="id" name="F7" />
+  <item type="id" name="F8" />
+  <item type="id" name="F8t" />
+  <item type="id" name="F9" />
+  <item type="id" name="F10"/>
+  <item type="id" name="eq" />
+  <item type="id" name="eq_dir" />
+  <item type="id" name="tgl"/>
+  <item type="id" name="sz" />
+  <item type="id" name="szt" />
+  <item type="id" name="by_name" />
+  <item type="id" name="by_ext"  />
+  <item type="id" name="by_size" />
+  <item type="id" name="by_date" />
+  <item type="id" name="sel_all" />
+  <item type="id" name="uns_all" />
+  <item type="id" name="enter"   />
+  <item type="id" name="add_fav" />
+  <item type="id" name="remount" />
+  <item type="id" name="sdcard" />
+  <item type="id" name="root" />
+  <item type="id" name="mount" />
+  <item type="id" name="hidden" />
+  <item type="id" name="menu" />
+  <item type="id" name="create_shortcut" />
+  <item type="id" name="open" />
+  <item type="id" name="extract" />
+  <item type="id" name="new_zipt" />  
+  <item type="id" name="rescan_dir" />  
+</resources>
+
+
+
+
+
+
+
+
+
+
+

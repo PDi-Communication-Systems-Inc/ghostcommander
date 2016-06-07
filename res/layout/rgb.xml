@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/rgb_picker" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/default_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_color"
+        android:visibility="gone"/>
+
+	<LinearLayout
+	android:id="@+id/rgb_sliders" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical">    
+	    
+	    <LinearLayout 
+	        android:id="@+id/r_box" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        <TextView 
+	            android:text="@string/r_title" 
+	            android:id="@+id/r_title"
+	            android:textStyle="bold"
+	            android:textColor="#FF0000" 
+	            android:padding="8dip"
+	            android:gravity="fill_vertical"
+	            android:layout_width="wrap_content" 
+	            android:layout_height="fill_parent"/>
+	        <SeekBar 
+	            android:id="@+id/r_seek" 
+	            android:layout_width="fill_parent" 
+	            android:layout_height="wrap_content"
+	            android:padding="8dip"
+	            android:max="255"/>
+	    </LinearLayout>
+	
+	    <LinearLayout 
+	        android:id="@+id/g_box" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        <TextView 
+	            android:text="@string/g_title" 
+	            android:id="@+id/g_title"
+	            android:textStyle="bold"
+	            android:textColor="#00FF00"
+	            android:padding="8dip" 
+	            android:gravity="fill_vertical"
+	            android:layout_width="wrap_content" 
+	            android:layout_height="fill_parent"/>
+	        <SeekBar 
+	            android:id="@+id/g_seek" 
+	            android:layout_width="fill_parent" 
+	            android:layout_height="wrap_content"
+	            android:padding="8dip"
+	            android:max="255"/>
+	    </LinearLayout>
+	
+	    <LinearLayout 
+	        android:id="@+id/b_box" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+	        <TextView 
+	            android:text="@string/b_title" 
+	            android:id="@+id/b_title"
+	            android:textStyle="bold"
+	            android:textColor="#0000FF" 
+	            android:padding="8dip"
+	            android:gravity="fill_vertical"
+	            android:layout_width="wrap_content" 
+	            android:layout_height="fill_parent"/>
+	        <SeekBar 
+	            android:id="@+id/b_seek" 
+	            android:layout_width="fill_parent" 
+	            android:layout_height="wrap_content"
+	            android:padding="8dip"
+	            android:max="255"/>
+	    </LinearLayout>
+	
+	    <View
+			android:layout_width="fill_parent"
+			android:layout_height="16dip"
+			android:layout_margin="8dip"
+			android:id="@+id/preview"/>
+    </LinearLayout>
+</LinearLayout>

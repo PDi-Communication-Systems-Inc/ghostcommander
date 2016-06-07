@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="darkGray">#FF2A2A2A</color>
+
+    <color name="bgr_def">#FF000000</color>    
+    <color name="fgr_def">#FFF0F0F0</color>    
+    <color name="fg1_def">#FFFFFFEF</color>    
+    <color name="fg2_def">#FFD1FFDF</color>    
+    <color name="fg3_def">#FFC4F0FF</color>    
+    <color name="fg4_def">#FFFFFFD8</color>    
+    <color name="fg5_def">#FFFFE0F4</color>    
+    <color name="fg6_def">#FFD6D6D6</color>    
+    <color name="sel_def">#FF58B6E1</color>    
+	<color name="cur_def">#FFFF8000</color>    
+    <color name="ttl_def">#FF555555</color>    
+    <color name="btn_def">#FF2A2A2A</color>    
+    <color name="btn_odf">#FFFFFFFF</color>    
+    <color name="toolbar">#333</color>    
+</resources>

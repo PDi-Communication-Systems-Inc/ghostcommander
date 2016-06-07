@@ -1,0 +1,32 @@
+Dual panel file manager (like Norton Commander, Midnight Commander, FAR or Total Commander).
+
+It lets you manage your files, copy and move them from one panel to another. That's more convenient than that explorer - like "copy" and then "paste" steps.
+
+But its abilities are not limited by the device's SD-card, this file manager can also transfer (upload or download) files to and from FTP servers and Windows network shares (Samba plug-in is required to be installed), create or extract ZIP archives. For the advanced users, this file manager has also the "root:" (or "su" - super user) mode that is essential to work with system files on a rooted phone, to change file permissions attributes and owners (chmod and chown) and even execute your own shell commands. 
+
+Please note the following: to select more than one files tap on the right side of the panel, but to activate a file by its extension (or enter into a sub-folder) tap on the left side. That's right, one side will make the file be activated, and the other side will make the file be selected.
+
+
+The application comes with a lot of customizable options which allow you to adjust its behavior to your personal habits.
+
+The Ghost Commander file manager features include but not limited to:
+* multiselect (manual or by wildcards)
+* pictures thumbnails
+* favorite folders and locations
+* calculation of the total size of the selected folders and files
+* sorting - by file names, by extension, by size, by date
+* file search for files 
+* text editor (built-in or third-party pluggable)
+* text and picture viewers
+* open a file with the appropriate application (i.e. install an .apk, show a picture or play a movie)
+* send files (via email or bluetooth)
+* many personalization settings: colors, font size, interface language, custom toolbar set
+* manage files on SD card
+* can do all the basic stuff like: create directory, text file, delete files and folders, copy files and/or folders
+* FTP client. FTP download and upload
+* supports archives like ZIP - creation and extraction
+* super user mode - remount the /system or any other partition, make changes in the system files, etc.
+
+Please visit the web site for more details.
+Email to the developer if you have any questions.
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false">
+   
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingRight="3dip" >
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip">
+            <Button
+                android:id="@+id/b0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/base_color" />
+            <TextView
+                android:id="@+id/s0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:background="@color/bgr_def"
+                android:text="@string/color_sample" />
+        </RelativeLayout>
+        <View
+            android:layout_alignParentBottom="true" 
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginTop="8dip"
+            android:background="@android:drawable/divider_horizontal_dim_dark"/>
+                
+        <LinearLayout
+            android:id="@+id/types_container"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </LinearLayout>
+        <Button
+            android:id="@+id/add_new_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_type" />
+            
+   </LinearLayout>
+</ScrollView>

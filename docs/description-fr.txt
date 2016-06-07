@@ -1,0 +1,16 @@
+Gestionnaire de fichiers avec double panneau d'affichage (comme Total Commander, Norton Commander ou Midnight Commander).
+
+A la difference des autres gestionnaires de fichiers utilisant le copier-coller, Ghost Commander copie et deplace les fichiers entre ses deux panneaux d'affichage,ce qui vous permet une organisation plus facile des fichiers et repertoires sur votre carte SD.
+
+En plus de la gestion des fichiers sur la carte SD, Ghost Commander peut aussi telecharger (upload/download) les fichiers sur les serveurs distants tels que les serveurs FTP, les partages Samba (Windows, un plug-in est requis). Il peut aussi creer ou extraire les fichiers ZIP.
+
+Pour les utilisateurs avances, ce gestionnaire de fichiers a aussi un mode "root" (super-utilisateur) permettant de travailler sur les fichiers systemes sur un telephone roote, de changer les permissions des fichiers (chmod), voire d'executer votre propre commande shell. En plus, le mode "mount:" permet d'afficher et de monter les partitions systeme.
+
+Note : pour selectionner un ou plusieurs fichiers, appuyer sur la partie droite du panneau. Pour lancer un fichier ou entrer dans un repertoire, appuyer sur la partie gauche du panneau.
+
+L'application a une multitude d'options de configuration adaptees a vos preferences.
+
+Liste complete des fonctionnalites de ce gestionnaire de fichiers : selection multiple, vignettes des fichiers images, gestion des favoris, calcul de l'espace occupe des fichiers et repertoires selectionnes, tri (par nom, par extension, par taille, par date), recherche de fichiers par nom, editeur de texte (interne ou externe), ouverture d'un fichier avec l'application associee (par exemple installer un .apk, visualiser une photo ou un fichier video), envoi des fichiers par email ou par Bluetooth, configuration des parametres (choix des couleurs, choix du langage, barre d'outils personnalisee...), et evidemment les fonctions standards d'un gestionnaire de fichiers : creer un repertoire, creer un fichier texte, copier/deplacer/supprimer des fichiers et repertoires, telechargement FTP, creation et extraction des archives ZIP, mode super-utilisateur.
+
+Pour plus d'information veuillez visiter notre site Web.
+Des questions ? Envoyez-moi un email (en Anglais).

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="3dip">
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/typemasks" />
+    <TextView
+        android:id="@+id/s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:background="@color/bgr_def"
+        android:text="@string/color_sample" />
+    <Button
+        android:id="@+id/b"
+        android:layout_below="@id/t"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/color" />
+    <EditText
+        android:id="@+id/types"
+        android:scrollHorizontally="true"
+        android:layout_below="@id/t"
+        android:layout_alignParentLeft="true"  
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/b"
+        android:layout_marginBottom="5dip">
+    </EditText>
+    <View
+        android:layout_below="@id/types" 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@android:drawable/divider_horizontal_dim_dark"/>
+</RelativeLayout>
